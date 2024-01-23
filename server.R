@@ -14,6 +14,8 @@ shinyServer(function(input, output) {
   python_path = Sys.getenv('PYTHON_PATH')
   
   # Create virtual env and install dependencies
+  reticulate::install_python(version = '3.9.0')
+  
   reticulate::virtualenv_create(envname = virtualenv_dir, python = python_path)
   reticulate::virtualenv_install(virtualenv_dir, packages = PYTHON_DEPENDENCIES, ignore_installed=TRUE)
   reticulate::use_virtualenv(virtualenv_dir, required = T)
