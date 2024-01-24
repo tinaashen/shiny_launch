@@ -1,5 +1,5 @@
 # Import R packages needed for the UI
-packages.install("shinycssloader")
+install.packages("shinycssloader")
 library(shiny)
 library(shinycssloaders)
 library(DT)
