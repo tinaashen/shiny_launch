@@ -1,5 +1,7 @@
 # Import R packages needed for the UI
+install.packages("shinycssloaders")
 library(shiny)
+library(shinycssloaders)
 library(DT)
 
 # Begin UI for the R + reticulate example app
