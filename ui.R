@@ -1,7 +1,5 @@
 # Import R packages needed for the UI
-install.packages("DT")
 library(shiny)
-library(DT)
 
 # Begin UI for the R + reticulate example app
 ui <- fluidPage(
