@@ -1,4 +1,5 @@
 # Import R packages needed for the UI
+install.packages("DT")
 library(shiny)
 library(DT)
 
