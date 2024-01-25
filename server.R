@@ -12,7 +12,7 @@ shinyServer(function(input, output) {
   # ------------------ App virtualenv setup (Do not edit) ------------------- #
   virtualenv_create("py3-virtualenv", python = "/usr/bin/python3")
   use_virtualenv("py3-virtualenv")
-
+  
   
   
   # ------------------ App server logic (Edit anything below) --------------- #
