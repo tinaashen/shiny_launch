@@ -1,4 +1,4 @@
-packages <- c("DT", "shinycssloaders", "reticulate", "shiny", "RColorBrewer")
+packages <- c("DT", "shinycssloaders", "reticulate", "shiny", "RColorBrewer", "tiff")
 newPackages <- packages[!(packages %in% installed.packages()[,"Package"])]
 if(length(newPackages)) install.packages(newPackages)
 
