@@ -22,7 +22,7 @@ ui <- fluidPage(
                           actionButton('analyze_btn', 'Analyze Cells'),
                           DT::dataTableOutput('contents'), # Add this line to display the results
                           br(),
-                          actionButton('show_btn', 'Showing Button'),
+                          actionButton('show_btn', 'Show Results'),
                           DTOutput('tbl'),
                           )
                  ),
